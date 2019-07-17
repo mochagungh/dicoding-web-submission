@@ -1,0 +1,72 @@
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+.container {
+    height: 100%;
+}
+.main ,.kotak {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column; */
+}
+.main {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    background-image: url(/img/sharon-mccutcheon-XeEvy_ofGNk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0;
+    left: 0;
+}
+.kotak {
+    position: absolute;
+}
+.kotak > p {
+    margin-top: -20px;
+}
+a {
+    text-decoration: none;
+}
+.kotak > button {
+    background: transparent;
+}
+.kontak {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+/* ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
