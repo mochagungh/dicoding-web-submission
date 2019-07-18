@@ -15,7 +15,7 @@ html, body {
 }
 .page1 {
     display: flex;
-    background-image: url(/img/unspalsh-6ZuF6ZCvtJc.jpg);
+    background-image: url(img/unspalsh-6ZuF6ZCvtJc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
