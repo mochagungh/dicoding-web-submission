@@ -11,3 +11,5 @@ Rules :
 <br>
 <br>
 Layouting Submission ini dibuat dengan CSS Grid & Flex
+<br>
+image credit : https://unsplash.com/photos/6ZuF6ZCvtJc
